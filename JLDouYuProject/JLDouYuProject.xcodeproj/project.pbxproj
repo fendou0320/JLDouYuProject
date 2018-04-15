@@ -136,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				1CF8DB502082E1F4008AF49D /* Main */,
-				1CF8DB4F2082E1F4008AF49D /* Mine */,
 				1CF8DB4C2082E1F4008AF49D /* Home */,
+				1CF8DB4F2082E1F4008AF49D /* Mine */,
 				1CF8DB4D2082E1F4008AF49D /* Follow */,
 				1CF8DB4E2082E1F4008AF49D /* Live */,
 				1CF8DB512082E1F4008AF49D /* Tool */,
@@ -148,7 +148,9 @@
 		1CF8DB4C2082E1F4008AF49D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				1CF8DB632082F05C008AF49D /* Home.storyboard */,
+				1CF8DB6E2082F871008AF49D /* VC */,
+				1CF8DB6D2082F871008AF49D /* Model */,
+				1CF8DB6F2082F871008AF49D /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -157,6 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				1CF8DB612082F05C008AF49D /* Follow.storyboard */,
+				1CF8DB7A2082F92A008AF49D /* Model */,
+				1CF8DB792082F92A008AF49D /* VC */,
+				1CF8DB7B2082F92A008AF49D /* View */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -165,6 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				1CF8DB692082F0CE008AF49D /* Live.storyboard */,
+				1CF8DB782082F914008AF49D /* Model */,
+				1CF8DB762082F914008AF49D /* VC */,
+				1CF8DB772082F914008AF49D /* View */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -173,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				1CF8DB622082F05C008AF49D /* Mine.storyboard */,
+				1CF8DB742082F8FB008AF49D /* Model */,
+				1CF8DB732082F8FB008AF49D /* VC */,
+				1CF8DB752082F8FB008AF49D /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -182,6 +193,9 @@
 			children = (
 				1CF8DB5F2082F030008AF49D /* Main.storyboard */,
 				1CF8DB6B2082F23F008AF49D /* MainVC.swift */,
+				1CF8DB712082F897008AF49D /* VC */,
+				1CF8DB722082F897008AF49D /* Model */,
+				1CF8DB702082F897008AF49D /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -191,6 +205,112 @@
 			children = (
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		1CF8DB6D2082F871008AF49D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF8DB6E2082F871008AF49D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1CF8DB632082F05C008AF49D /* Home.storyboard */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1CF8DB6F2082F871008AF49D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CF8DB702082F897008AF49D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CF8DB712082F897008AF49D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1CF8DB722082F897008AF49D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF8DB732082F8FB008AF49D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1CF8DB742082F8FB008AF49D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF8DB752082F8FB008AF49D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CF8DB762082F914008AF49D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1CF8DB772082F914008AF49D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CF8DB782082F914008AF49D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF8DB792082F92A008AF49D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		1CF8DB7A2082F92A008AF49D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CF8DB7B2082F92A008AF49D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
