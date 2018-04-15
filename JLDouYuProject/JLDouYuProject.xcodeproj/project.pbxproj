@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1CF353B51FF3D37B00095650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF353B41FF3D37B00095650 /* AppDelegate.swift */; };
-		1CF353BA1FF3D37C00095650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF353B81FF3D37C00095650 /* Main.storyboard */; };
 		1CF353BC1FF3D37C00095650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF353BB1FF3D37C00095650 /* Assets.xcassets */; };
 		1CF353BF1FF3D37C00095650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF353BD1FF3D37C00095650 /* LaunchScreen.storyboard */; };
 		1CF353CA1FF3D37C00095650 /* JLDouYuProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF353C91FF3D37C00095650 /* JLDouYuProjectTests.swift */; };
 		1CF353D51FF3D37C00095650 /* JLDouYuProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF353D41FF3D37C00095650 /* JLDouYuProjectUITests.swift */; };
+		1CF8DB602082F030008AF49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF8DB5F2082F030008AF49D /* Main.storyboard */; };
+		1CF8DB652082F05C008AF49D /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF8DB612082F05C008AF49D /* Follow.storyboard */; };
+		1CF8DB662082F05C008AF49D /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF8DB622082F05C008AF49D /* Mine.storyboard */; };
+		1CF8DB672082F05C008AF49D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF8DB632082F05C008AF49D /* Home.storyboard */; };
+		1CF8DB6A2082F0CE008AF49D /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF8DB692082F0CE008AF49D /* Live.storyboard */; };
+		1CF8DB6C2082F23F008AF49D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8DB6B2082F23F008AF49D /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,6 @@
 /* Begin PBXFileReference section */
 		1CF353B11FF3D37B00095650 /* JLDouYuProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDouYuProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF353B41FF3D37B00095650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CF353B91FF3D37C00095650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF353BB1FF3D37C00095650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF353BE1FF3D37C00095650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF353C01FF3D37C00095650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +49,12 @@
 		1CF353D01FF3D37C00095650 /* JLDouYuProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLDouYuProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF353D41FF3D37C00095650 /* JLDouYuProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLDouYuProjectUITests.swift; sourceTree = "<group>"; };
 		1CF353D61FF3D37C00095650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF8DB5F2082F030008AF49D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1CF8DB612082F05C008AF49D /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		1CF8DB622082F05C008AF49D /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		1CF8DB632082F05C008AF49D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1CF8DB692082F0CE008AF49D /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		1CF8DB6B2082F23F008AF49D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,6 @@
 			children = (
 				1CF353B41FF3D37B00095650 /* AppDelegate.swift */,
 				1CF8DB4B2082E1F4008AF49D /* Classes */,
-				1CF353B81FF3D37C00095650 /* Main.storyboard */,
 				1CF353BB1FF3D37C00095650 /* Assets.xcassets */,
 				1CF353BD1FF3D37C00095650 /* LaunchScreen.storyboard */,
 				1CF353C01FF3D37C00095650 /* Info.plist */,
@@ -126,11 +135,11 @@
 		1CF8DB4B2082E1F4008AF49D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1CF8DB502082E1F4008AF49D /* Main */,
 				1CF8DB4F2082E1F4008AF49D /* Mine */,
 				1CF8DB4C2082E1F4008AF49D /* Home */,
 				1CF8DB4D2082E1F4008AF49D /* Follow */,
 				1CF8DB4E2082E1F4008AF49D /* Live */,
-				1CF8DB502082E1F4008AF49D /* Main */,
 				1CF8DB512082E1F4008AF49D /* Tool */,
 			);
 			path = Classes;
@@ -139,6 +148,7 @@
 		1CF8DB4C2082E1F4008AF49D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1CF8DB632082F05C008AF49D /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -146,6 +156,7 @@
 		1CF8DB4D2082E1F4008AF49D /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				1CF8DB612082F05C008AF49D /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 		1CF8DB4E2082E1F4008AF49D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				1CF8DB692082F0CE008AF49D /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -160,6 +172,7 @@
 		1CF8DB4F2082E1F4008AF49D /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				1CF8DB622082F05C008AF49D /* Mine.storyboard */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -167,6 +180,8 @@
 		1CF8DB502082E1F4008AF49D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1CF8DB5F2082F030008AF49D /* Main.storyboard */,
+				1CF8DB6B2082F23F008AF49D /* MainVC.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -285,9 +300,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF8DB602082F030008AF49D /* Main.storyboard in Resources */,
 				1CF353BF1FF3D37C00095650 /* LaunchScreen.storyboard in Resources */,
+				1CF8DB662082F05C008AF49D /* Mine.storyboard in Resources */,
+				1CF8DB672082F05C008AF49D /* Home.storyboard in Resources */,
 				1CF353BC1FF3D37C00095650 /* Assets.xcassets in Resources */,
-				1CF353BA1FF3D37C00095650 /* Main.storyboard in Resources */,
+				1CF8DB652082F05C008AF49D /* Follow.storyboard in Resources */,
+				1CF8DB6A2082F0CE008AF49D /* Live.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF353B51FF3D37B00095650 /* AppDelegate.swift in Sources */,
+				1CF8DB6C2082F23F008AF49D /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,14 +368,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CF353B81FF3D37C00095650 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CF353B91FF3D37C00095650 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CF353BD1FF3D37C00095650 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR5W2N3P98;
 				INFOPLIST_FILE = JLDouYuProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Project.JLDouYuProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR5W2N3P98;
 				INFOPLIST_FILE = JLDouYuProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Project.JLDouYuProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
