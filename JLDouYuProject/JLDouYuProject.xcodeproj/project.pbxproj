@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1CF353B51FF3D37B00095650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF353B41FF3D37B00095650 /* AppDelegate.swift */; };
-		1CF353B71FF3D37C00095650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF353B61FF3D37C00095650 /* ViewController.swift */; };
 		1CF353BA1FF3D37C00095650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF353B81FF3D37C00095650 /* Main.storyboard */; };
 		1CF353BC1FF3D37C00095650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF353BB1FF3D37C00095650 /* Assets.xcassets */; };
 		1CF353BF1FF3D37C00095650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF353BD1FF3D37C00095650 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		1CF353B11FF3D37B00095650 /* JLDouYuProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDouYuProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF353B41FF3D37B00095650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CF353B61FF3D37C00095650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1CF353B91FF3D37C00095650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF353BB1FF3D37C00095650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF353BE1FF3D37C00095650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF353B41FF3D37B00095650 /* AppDelegate.swift */,
-				1CF353B61FF3D37C00095650 /* ViewController.swift */,
+				1CF8DB4B2082E1F4008AF49D /* Classes */,
 				1CF353B81FF3D37C00095650 /* Main.storyboard */,
 				1CF353BB1FF3D37C00095650 /* Assets.xcassets */,
 				1CF353BD1FF3D37C00095650 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				1CF353D61FF3D37C00095650 /* Info.plist */,
 			);
 			path = JLDouYuProjectUITests;
+			sourceTree = "<group>";
+		};
+		1CF8DB4B2082E1F4008AF49D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1CF8DB4F2082E1F4008AF49D /* Mine */,
+				1CF8DB4C2082E1F4008AF49D /* Home */,
+				1CF8DB4D2082E1F4008AF49D /* Follow */,
+				1CF8DB4E2082E1F4008AF49D /* Live */,
+				1CF8DB502082E1F4008AF49D /* Main */,
+				1CF8DB512082E1F4008AF49D /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1CF8DB4C2082E1F4008AF49D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1CF8DB4D2082E1F4008AF49D /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1CF8DB4E2082E1F4008AF49D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1CF8DB4F2082E1F4008AF49D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		1CF8DB502082E1F4008AF49D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1CF8DB512082E1F4008AF49D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF353B71FF3D37C00095650 /* ViewController.swift in Sources */,
 				1CF353B51FF3D37B00095650 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR5W2N3P98;
 				INFOPLIST_FILE = JLDouYuProject/Info.plist;
@@ -433,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Project.JLDouYuProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -441,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YR5W2N3P98;
 				INFOPLIST_FILE = JLDouYuProject/Info.plist;
@@ -448,7 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Project.JLDouYuProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
